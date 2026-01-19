@@ -6,15 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CM Consultancy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1>CM Consultancy</h1>
-        <p>Business Consulting & Advisory Services</p>
+    <!-- Navigation -->
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo.png" alt="CM Consultancy Logo" class="logo">
+                <h1>CM Consultancy</h1>
+            </div>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Professional Business Consulting in Malaysia</h2>
+            <p>Helping your business grow with expert guidance and strategic solutions.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
     </header>
 
-    <section>
+    <!-- About Section -->
+    <section id="about">
         <h2>About Us</h2>
         <p>
             CM Consultancy is a professional consulting firm providing business advisory,
@@ -22,25 +47,46 @@
         </p>
     </section>
 
-    <section>
+    <!-- Services Section -->
+    <section id="services">
         <h2>Our Services</h2>
-        <ul>
-            <li>Business Consulting</li>
-            <li>Operational Advisory</li>
-            <li>Process Improvement</li>
-            <li>General Business Support</li>
-        </ul>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Business Consulting</h3>
+                <p>Expert guidance for startups and established businesses to maximize growth and efficiency.</p>
+            </div>
+            <div class="service-card">
+                <h3>Operational Advisory</h3>
+                <p>Optimize your business operations with proven strategies and expert advice.</p>
+            </div>
+            <div class="service-card">
+                <h3>Process Improvement</h3>
+                <p>Streamline processes to save time, reduce cost, and enhance performance.</p>
+            </div>
+            <div class="service-card">
+                <h3>General Business Support</h3>
+                <p>Comprehensive support to help businesses tackle challenges and seize opportunities.</p>
+            </div>
+        </div>
     </section>
 
-    <section>
+    <!-- Contact Section -->
+    <section id="contact">
         <h2>Contact Us</h2>
-        <p><strong>Email:</strong> cmconsultancy@gmail.com</p>
-        <p><strong>Phone:</strong> +60 XX-XXXX XXXX</p>
+        <p><strong>Email:</strong>  cmconsultancyofficial@gmail.com</p>
+        <p><strong>Phone:</strong> +60 12-534-8883</p>
         <p><strong>Location:</strong> Malaysia</p>
+        <a href="mailto:cmconsultancy@gmail.com" class="btn">Email Us</a>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>© 2026 CM Consultancy. All rights reserved.</p>
+        <!--<div class="social">
+            <a href="#">LinkedIn</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a>
+        </div>-->
     </footer>
 
 </body>
